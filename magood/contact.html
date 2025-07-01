@@ -1,0 +1,45 @@
+<!-- Simpan sebagai: contact.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - MaGood Mart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="checkout-btn" onclick="checkoutItems()">🛒 Checkout</button>
+
+  <header>
+    <div class="header-content">
+      <h1 class="logo-text">MaGood Mart</h1>
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT MAGGOT</a>
+        <a href="service.html">SERVICE</a>
+        <a href="contact.html">CONTACT US</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact-section">
+    <h2 class="contact-title">CONTACT US</h2>
+    <form class="contact-form" action="contact.php" method="post">
+      <label for="name">NAMA ANDA</label>
+      <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+      <label for="email">EMAIL ANDA</label>
+      <input type="email" id="email" name="email" required placeholder="Masukkan email Anda">
+      <label for="message">PESAN ANDA</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Masukkan pesan Anda"></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    created by MaGood Mart ♥
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
